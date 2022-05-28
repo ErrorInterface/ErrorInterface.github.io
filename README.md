@@ -12,6 +12,6 @@
 # Project Members:-
 - <a href="https://github.com/joysen12">Joy</a>
 - <a href="https://github.com/iammrmehedi">Mehedi</a>
-- Sagor
-- Mamun
+- <a href="https://www.facebook.com/mdsv.2015">Sagor</a>
+- <a href="https://www.facebook.com/md.mhmamun.cse">Mamun</a>
 - Shofiqul
