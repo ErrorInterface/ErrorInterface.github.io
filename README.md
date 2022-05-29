@@ -10,7 +10,7 @@
 - <a href="https://drive.google.com/drive/folders/1kQlh4FZnA5PXYt2_dqw_lgDfqf6npMKg?usp=sharing">GDrive</a>
 
 # Project Members:-
-<p >
+<p align="center">
   <a href="https://github.com/joysen12"><img  width="100px" src="./img/joy.png" alt="Joy"></a>
   <a href="https://github.com/iammrmehedi"><img  width="100px" src="./img/mehedi.png" alt="Mehedi"></a>
   <a href="https://www.facebook.com/mdsv.2015"> <img  width="100px" src="./img/sagor.png" alt="Sagor"></a>
