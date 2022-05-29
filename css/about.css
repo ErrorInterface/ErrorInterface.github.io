@@ -5,6 +5,30 @@
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
-.about-header {
+body {
  background-color: whitesmoke;
 }
+.page-title {
+ background-color: black;
+ color: white;
+}
+.about-header {
+ background-color: white;
+ padding-top: 30px;
+}
+.team-logo img {
+ width: 150px;
+}
+.title {
+ color: red;
+}
+.about-body {
+
+}
+.about-footer {
+ background-color: black;
+ text-align: center;
+ color: white;
+ margin-top: 350px;
+}
+

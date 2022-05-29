@@ -1,0 +1,116 @@
+#about{
+	overflow: hidden;
+	background-color: #e64587;
+	width: 100%;
+}
+#about .container2{
+	margin-left: 8%;
+	box-sizing: border-box;
+	padding: 50px;
+	overflow: hidden;
+}
+#about .container2 .back{
+	float: left;
+	height: 300px;
+	width: 563px;
+	margin: 20px;
+	border-radius: 6px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+#about .container2 .back .title.joy{
+	background: url('img/joy.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title.bini{
+	background: url('img/bini.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title.mamun{
+	background: url('img/mamun.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title.sadia{
+	background: url('img/sadia.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title.mitu{
+	background: url('img/mitu.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .title.swarna{
+	background: url('img/swarna.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#about .container2 .back .description{
+	padding: 10px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 233px;
+    border-radius: 6px;
+    margin-top: -243px;
+	height: 280px;
+	width: 300px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+	/*icons list start*/
+.icons ul{
+	padding: 0px;
+	margin-top: 14vh;
+	overflow: hidden;
+}
+.icons ul li{
+	margin-left: 10px;
+	list-style-type:none;
+	float: left;
+}
+.icons ul li a{
+	background-image: url('img/index.png');
+	height: 38px;
+	width: 38px;
+	display: inline-block;
+	background-position: 0px 0px;
+	border: 2px solid cyan;
+	border-radius: 50%;
+	transition: 1s;
+}
+
+.icons ul li:first-child a:hover{
+	background-position: 0px -40px;
+}
+
+.icons ul li:nth-child(2) a{
+	background-position: 117px 0px;
+}
+.icons ul li:nth-child(2) a:hover{
+	background-position: 117px -40px;
+	transition: 1s;
+}
+
+
+.icons ul li:nth-child(3) a{
+	background-position: -156px 0px;
+}
+
+.icons ul li:nth-child(3) a:hover{
+	background-position: -156px -40px;
+	transition: 1s ease;
+}
