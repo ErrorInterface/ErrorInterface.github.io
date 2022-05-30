@@ -1,34 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
+/* box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
 }
-body {
- background-color: whitesmoke;
+ul {
+  list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
+
+.about-header-upper {
+  margin-top: 20px;
+}
+.about-header-upper ul {
+  display: flex;
+  justify-content: center;
+}
+.about-header-upper ul li {
+  padding: 0 10px;
+}
+.about-header-upper ul li a {
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+.about-header-upper a.active {
+  background-color: #fdfeff;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.about-header-upper ul li a:hover {
+  background-color: #fdfeff;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .page-title {
- background-color: black;
- color: white;
+  padding: 13px 0px;
+  color: white;
 }
-.about-header {
- background-color: white;
- padding-top: 30px;
+.about-header-lower {
+  text-align: center;
+  color: white;
+}
+.text {
+  padding-bottom: 20px;
+  color: white;
+}
+
+body {
+  background: rgb(0, 196, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 196, 204, 1) 0%,
+    rgba(57, 125, 216, 1) 48%,
+    rgba(116, 52, 230, 1) 91%
+  );
+}
+
+.body-header {
+  padding-top: 30px;
+  color: white;
 }
 .team-logo img {
- width: 150px;
+  width: 124px;
+  height: 124px;
+  margin-top: 60px;
 }
-.title {
- color: red;
-}
-.about-body {
-
-}
-.about-footer {
- background-color: black;
- text-align: center;
- color: white;
- margin-top: 350px;
+.line {
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: center;
+  padding-right: 90px;
+}
+
+.card {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 320px;
+  height: 350px;
+  background-color: #fdfeff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  /* box-shadow: 4px 4px 12px 0px #afafaf ; */
+  transition: 0.5s all ease-in-out;
+}
+.card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+
+.card-image img {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  margin-bottom: 1em;
+  border-radius: 100%;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-info .details {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card-social-icons {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+.card-social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+.footer-menu {
+  margin-top: 20px;
+}
+.footer-menu ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-menu ul li {
+  padding: 0 10px;
+}
+.footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+.footer-menu ul li a:hover {
+  color: yellow;
+}
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.footer-copyright a {
+  color: yellow;
+}
+.footer-copyright a:hover {
+  color: red;
+}

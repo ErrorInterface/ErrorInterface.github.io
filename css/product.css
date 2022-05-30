@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", Cursive;
+}
+/* Header Design Start */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.about-header-upper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-header-upper ul {
+  display: flex;
+  justify-content: center;
+}
+.about-header-upper ul li {
+  padding: 0 10px;
+}
+.about-header-upper ul li a {
+  color: black;
+  transition: 0.5s all ease-in-out;
+}
+.about-header-upper a.active {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.about-header-upper ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Header Design End */
+img {
+  height: 300px;
+  width: 10%;
+  transition: 1s;
+}
+
+img:hover {
+  padding: 10px;
+}
+.row {
+  margin: 50px;
+}
+.col {
+  transition: 1s;
+}
+.col:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+.card {
+  border: none;
+  /* background-color: ; */
+  color: rgb(15, 14, 14);
+  text-align: center;
+}
+
+/* .btn {
+    position: ;
+} */

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projects Title</title>
+    <title>ErrorShop</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -13,10 +13,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="LoadingAnimation()">
 
+   <!-- Body Loader  -->
+   <div id="loader"></div>
 
+  <!-- Header part Start  -->
     <header>
+
+      <!-- navbar Start  -->
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
@@ -31,13 +36,13 @@
                     <a class="nav-link" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="./Product.html">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="./about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                   </li>
                   
                 </ul>
@@ -53,6 +58,7 @@
           </nav>
           <!-- navbar end  -->
 
+          <!-- main Section Start  -->
           <div class="hero-section">
               <div class="container slider-container">
 
@@ -102,7 +108,79 @@
                       </div>
               </div>
           </div>
+          <!-- Header Part End  -->
     </header>
+
+    <!-- Feature Section  -->
+    <section class="feature py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img class="feature-img" src="img/free-shipping.png" alt="">
+            <h3 class="lead">Free Shopping</h3>
+            <p class="text-muted">Free Shipping on all over the Universe</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img class="feature-img" src="img/phone-call.png" alt="">
+            <h3 class="lead">Support 24/7</h3>
+            <p class="text-muted">Contact Us 24 hours a day, 7 days a week</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img class="feature-img" src="img/credit-card.png" alt="">
+            <h3 class="lead">Payment Secure</h3>
+            <p class="text-muted">We Ensure secure Payment</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img class="feature-img" src="img/return.png" alt="">
+            <h3 class="lead">7 days Return</h3>
+            <p class="text-muted">Simply return it within 7 days for an exchange</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Part Design -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2> <img class="footer-logo" src="img/logo.png" alt=""> ERROR SHOP</h2>
+            <p> HVW6+4V9, BaitulAman, A.F. Mujibur Rahman (ICS) Sarani <br> Faridpur 7803</p>
+            <p><a href="tel: +8801911111111">+880 01911111111</a></p>
+            <p><a href="mailto:errorinterface2022@gmail.com">errorinterface2022@gmail.com</a></p>
+          </div>
+          <div class="col-md-3">
+            <h4>QUICK LINKS</h4>
+            <ul>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>HELP</h4>
+            <ul>
+              <li><a href="#">Order Tracking</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Condition</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>STORE</h4>
+            <ul>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-text mt-5 text-center">
+        ErrorShop is a product of <a href="#" class="text-danger"> ErrorInterface</a> &copy; 2022 All Rights Reserved.
+      </div>
+    </footer>
 
 
     <script src="js/bootstrap.bundle.js"></script>
@@ -111,11 +189,17 @@
 
     <script>
         $(document).ready(function(){
-  $('.slider-container').slick({
-
+          $('.slider-container').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
         });
     });
+    
+    function LoadingAnimation(){
+      document.getElementById('loader').style.display = "none";
+    }
     </script>
 </body>
 
 </html>
+
