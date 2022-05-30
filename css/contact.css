@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+   /* header part start */
+about-header-upper {
+ margin: 20px 0px;
+ 
+
+}
+.about-header-upper ul {
+ display: flex;
+ justify-content: center;
+}
+.about-header-upper ul li {
+ padding: 0 10px;
+}
+.about-header-upper ul li a {
+ color: black;
+ transition: 0.5s all ease-in-out;
+}
+.about-header-upper a.active {
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+ padding: 5px;
+}
+.about-header-upper ul li a:hover {
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+ padding: 5px;
+}
+/* header part end */
+
+/* main-contact-cody design start here */
+.main-contact-body {
+ display: flex;
+ justify-content: center;
+}
+.main-contact-body p {
+ background-color: black;
+ color: white;
+ padding: 500px;
+}
+/* main-contact-cody design start end */
+/* footer part start */
+.footer-menu {
+ margin: 20px;
+}
+.footer-menu ul {
+ display: flex;
+ justify-content: center;
+}
+.footer-menu ul li {
+ padding: 0 10px;
+}
+.footer-menu ul li a {
+ text-decoration: none;
+ color: black;
+ transition: 0.5s all ease-in-out;
+}
+.footer-menu ul li a:hover {
+ color: white;
+ background-color: black;
+ border-radius: 5px;
+ padding: 5px;
+}
+.footer-copyright {
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: black;
+}
+.footer-copyright a {
+ color: blue;
+}
+.footer-copyright a:hover {
+ color: red;
+}
+/* footer part end */
