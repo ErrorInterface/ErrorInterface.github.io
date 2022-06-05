@@ -25,6 +25,14 @@ a {
 .navbar-nav .nav-link {
   color: #fff;
 }
+
+.nav-link {
+  transition: 0.5s all ease-in-out;
+}
+.nav-link:hover {
+  color: black;
+}
+
 .navbar-brand img {
   width: 48px;
 }
@@ -32,7 +40,7 @@ header {
   /* height: 100vh; */
   overflow: hidden;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../img/bg1.jpg");
+  url("../img/bg1.jpg");
   background-size: cover;
   background-position: center center;
 }

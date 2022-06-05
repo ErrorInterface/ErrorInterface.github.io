@@ -23,6 +23,7 @@ a {
   padding: 0 10px;
 }
 .about-header-upper ul li a {
+  text-decoration: none;
   color: black;
   transition: 0.5s all ease-in-out;
   border-radius: 5px;
@@ -41,15 +42,26 @@ a {
 /* header part end */
 
 /* main-contact-cody design start here */
-.main-contact-body {
-  display: flex;
-  justify-content: center;
+
+#contact {
+  margin: 150px 0px;
 }
-.main-contact-body p {
-  background-color: black;
-  color: white;
-  padding: 500px;
+.heading {
+  font-weight: bolder;
+  font-size: 56px;
 }
+#contact input,
+#contact textarea {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #333;
+  width: 100%;
+  margin: 30px 0;
+}
+iframe {
+  width: 100%;
+}
+
 /* main-contact-cody design start end */
 /* footer part start */
 .footer-menu {
@@ -80,6 +92,7 @@ a {
   color: black;
 }
 .footer-copyright a {
+  text-decoration: none;
   color: blue;
 }
 .footer-copyright a:hover {
