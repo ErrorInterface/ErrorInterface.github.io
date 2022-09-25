@@ -6,217 +6,268 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
   </head>
   <body>
-    <div class="about-header-upper">
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./product.html" class="active">Product</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </div>
 
-    <h1 class="title">Our Products</h1>
+    <!-- navbar Start  -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+              <img class="menu-bar" src="img/menu.png" alt="">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+          </ul>
+          <div class="ml-auto">
+              <form action="">
+                  <div class="input-box">
+                      <input class="inp" type="text">
+                      <img class="search-icon" src="img/search.png" alt="">
+                  </div>
+              </form>
+          </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
 
-    <!-- Start Card Design -->
+    <!-- <h1 class="title text-center">Our Products</h1> -->
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <!-- 1st Card Start -->
+    <!-- Card Design start  -->
+    <section>
+      <div class="container py-5">
+        <div class="row">
 
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (1).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is as a natural lead-in to additional .
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/4.webp"
+                class="card-img-top" alt="Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
+                  <p class="small text-danger"><s>$1099</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">HP Notebook</h5>
+                  <h5 class="text-dark mb-0">$999</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">6</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-primary">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- 1st Card End -->
-
-        <!-- 2nd Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (10).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is tbestprodact a short card.</p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/7.webp"
+                class="card-img-top" alt="Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
+                  <p class="small text-danger"><s>$1199</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">HP Envy</h5>
+                  <h5 class="text-dark mb-0">$1099</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">7</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- 2nd Card end -->
-
-        <!-- 3rd Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (11).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a o additional additional content.
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/5.webp"
+                class="card-img-top" alt="Gaming Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
+                  <p class="small text-danger"><s>$1399</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">Toshiba B77</h5>
+                  <h5 class="text-dark mb-0">$1299</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- 3rd Card end -->
-
-        <!-- 4th Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (4).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This iural lead-in to ntent is a little bit longer.
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/3.webp"
+                class="card-img-top" alt="Gaming Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Monitors</a></p>
+                  <p class="small text-danger"><s>$499</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">Apple Monitor</h5>
+                  <h5 class="text-dark mb-0">$299</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">10</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/1.webp"
+                class="card-img-top" alt="Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Mobiles</a></p>
+                  <p class="small text-danger"><s>$1199</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">Tablet</h5>
+                  <h5 class="text-dark mb-0">$599</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./img/product/10.webp"
+                class="card-img-top" alt="Laptop" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small"><a href="#!" class="text-muted">Headphones</a></p>
+                  <p class="small text-danger"><s>$199</s></p>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-3">
+                  <h5 class="mb-0">P47 Headphone</h5>
+                  <h5 class="text-dark mb-0">$99</h5>
+                </div>
+    
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="buttons d-flex justify-content-between mt-3">
+                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="btn btn-warning">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <!-- 4th card End -->
-
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <!-- 5th card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (12).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a ng text below lead-in to additional .
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 5th Card End -->
-
-        <!-- 6th Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (2).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is best prodact of this site a short card.
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 6th Card end -->
-
-        <!-- 7th Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (6).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a best prodact of this site a o additional content.
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 7th Card End -->
-
-        <!-- 8th Card Start -->
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="img/men-shoes/download (7).jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This iural lead-in to ntent is a little bit longer.
-              </p>
-              <p>$1200</p>
-              <button class="btn btn-primary w-100" type="button">Buy</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 8th Card End -->
-      </div>
-    </div>
-
-    <div class="about-footer">
-      <div class="footer-menu">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </div>
+    <div class="about-footer text-center my-3">
       <div class="footer-copyright">
         ErrorShop is Designed by
         <a href="https://github.com/errorinterface">ErrorInterface</a> &copy;
         2022 All Rights Reserved.
       </div>
     </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
   </body>
-  <script src="js/bootstrap.min.js"></script>
 </html>
